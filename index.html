@@ -8,10 +8,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Connecting a bootstrap template to github">
+    <meta name="author" content="Matteo Wise">
 
-    <title>INSERT YOUR NAME</title>
+    <title>Matteo Wise</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,19 +41,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#topic1">Highlight #1</a>
+                        <a href="#vcs">Version Control</a>
                     </li>
                     <li>
-                        <a href="#topic2">Hightlight #2</a>
+                        <a href="#tts">The Three States</a>
                     </li>
                     <li>
-                        <a href="#topic3">Hightlight #3</a>
+                        <a href="#smf">Staging Modified Files</a>
                     </li>
                     <li>
-                        <a href="#topic4">Hightlight #4</a>
+                        <a href="#gc">Git Commands</a>
                     </li>
                     <li>
-                        <a href="#topic5">Hightlight #5</a>
+                        <a href="#ut">Undoing Tags</a>
                     </li>
                 </ul>
             </div>
@@ -64,10 +64,11 @@
 
     <!-- Full Width Image Header -->
     <header class="header-image">
+        <img src="images/1(2).png">
         <div class="headline">
             <div class="container">
-                <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h2>wise_lesson3_versioncontrol Highlights </h2>
+                <h3>Matteo Wise</h3>
             </div>
         </div>
     </header>
@@ -78,56 +79,56 @@
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
-        <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+        <div class="featurette" id="vcs">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/5(2).jpg">
+            <h2 class="featurette-heading">Version Control
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">For files that are constantly being changed or expanded on, a version control system can keep track of all versions of a file. For business who use the internet and keep files saved online, version control clients can help save files if they are lost or accidents happen. Using a distributed version control system such as github, for our class we will always have a backup for our files. Git can save snapshots of files and when a user commits, the files are saved to a project in git. This method makes github a very efficient version control system, especially for its capabilities.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+        <div class="featurette" id="tts">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/6(2).png">
+            <h2 class="featurette-heading">The Three States
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Committed, modified, and staged are the three states your files can be in within a version control system. Committing a file is saving it into a local repository. Modifying a file means that you have changed the file but have not saved it yet. Workflow within git follows a pattern in which a user is modifying files in a work-tree, then staging the files, which takes snapshots and adds them to the staging area. Finally committing a file saves it permanently to a git directory. </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+        <div class="featurette" id="smf">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/7(2).jpg">
+            <h2 class="featurette-heading">Staging Modified Files
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">If a change is made to a file that has been tracked it eventually should be saved. If nothing is done the file will appear as ‘changes not staged for commit’, if looked at using the git status command. To stage the file the next step is to use the git add command. Git add is a multipurpose command and can be used for new files, old files, and files that resolve merge-conflicting files. The file will be staged, if changes are made then there will be both staged and un-staged files. Git commit will send files to a repository and if changes are made then git add must be done to stage the files.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
-        <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+        <div class="featurette" id="gc">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/flowers.png">
+            <h2 class="featurette-heading">Git Commands 
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git tags are the key to using the VCS, basic commands range from git checkout and checkout -b, git commit, and git branch. Vital tags to use for a local repository are git fetch, git pull, git push, and git tag. Undo tags include git reset and git reserve and to combine breaches, the tags are git merge and git rebase. Many of the tags have multiple functions. For example, git push can be used for staged, un-staged, and un-merged files. Git commit is also a very important command.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
-        <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+        <div class="featurette" id="ut">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/flowers2.png">
+            <h2 class="featurette-heading">Undoing Tags
+                <span class="text-muted"></span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">When mistakes are made it is important to have a way to go back or undo what you just did. Luckily, the git –amend option allows users to go back on commits that have files missing, an incorrect message, or any other issue. The command takes your last commit back to the staging area, you can edit this file but it will overwrite that last commit. Also, if a user has two differing un-staged files and accidentally commits both, first using the git status tag they can be checked, followed by the rare use of the git reset tag. The git reset tag can be very dangerous to use, especially if used with double dashes (--)</p>
         </div>
 
         <hr class="featurette-divider">
